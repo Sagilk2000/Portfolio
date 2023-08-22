@@ -1,0 +1,116 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+body
+{
+    color: antiquewhite;
+    transition: .3s;
+}
+.header{
+    position: fixed;
+    top: 0;
+    left: 20;
+    width: 100;
+    padding: 20px 30%;
+    background: transparent;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    z-index: 200;
+    gap: 100px;
+}
+.logo{
+    position: relative;
+    font-size: 25px;
+    color: aliceblue;
+    text-decoration: none;
+    font-weight: 600;
+    margin-left: 10px;
+
+}
+.navbar a{
+    display: inline-flex;
+    font-size: 20px;
+    color: antiquewhite;
+    text-decoration: none;
+    font-weight: 500px;
+    margin-left: 20px;
+    transition: 0.3s;
+
+
+}
+.navbar a:hover{
+    color: aqua;
+}
+.home{
+    position: relative;
+    width: 100%;
+    justify-content: space-between;
+    height: 100vh;
+    background: url(images/bluebg.jpg)no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    padding: 70px 20;
+}
+
+.imgs{
+    background-color: aqua;
+    width:200px;
+    border: 1px ;
+    border-radius: 100px;
+    padding: 100px;
+    background-image: url(images/sagil.jpg);
+    background-repeat: round;
+
+}
+
+.home-sci a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: white;
+    border: 2px solid black;
+    border-radius : 50%;
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+    margin: 30px 15px 30px 0;
+
+}
+.home-content{
+    margin-left: 100px;
+    transition: 0.3s;
+}
+
+.btn-box{
+    display: inline-block;
+    padding: 12px 28px;
+    background: white;
+    border-radius: 60px;
+    font-size: 16px;
+    color: black;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.about{
+    position: relative;
+    width: 100%;
+    justify-content: space-between;
+    height: 100vh;
+    background: url(images/bluebg.jpg)no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    padding: 70px 20;
+}
